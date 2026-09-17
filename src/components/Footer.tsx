@@ -15,7 +15,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenBooking }) => {
           <div>
             <div style={{ marginBottom: '1rem' }}>
               <img
-                src="/thiran_logo.png"
+                src="./thiran_logo.png"
                 alt="THIRAN Technologies Logo"
                 style={{ height: '70px', width: 'auto', objectFit: 'contain' }}
               />

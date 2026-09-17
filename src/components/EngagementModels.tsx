@@ -12,7 +12,7 @@ export const EngagementModels: React.FC<EngagementModelsProps> = ({ onOpenBookin
       className="section-padding"
       style={{
         position: 'relative',
-        backgroundImage: 'linear-gradient(180deg, rgba(248, 250, 252, 0.45) 0%, rgba(241, 245, 249, 0.68) 100%), url("/hero_bg.png")',
+        backgroundImage: 'linear-gradient(180deg, rgba(248, 250, 252, 0.45) 0%, rgba(241, 245, 249, 0.68) 100%), url("./hero_bg.png")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed'

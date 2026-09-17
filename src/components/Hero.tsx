@@ -11,7 +11,7 @@ export const Hero: React.FC<HeroProps> = () => {
         padding: '5.5rem 0 6.5rem 0',
         position: 'relative',
         overflow: 'hidden',
-        backgroundImage: 'linear-gradient(180deg, rgba(248, 250, 252, 0.45) 0%, rgba(248, 250, 252, 0.72) 100%), url("/hero_bg.png")',
+        backgroundImage: 'linear-gradient(180deg, rgba(248, 250, 252, 0.45) 0%, rgba(248, 250, 252, 0.72) 100%), url("./hero_bg.png")',
         backgroundSize: 'cover',
         backgroundPosition: 'center'
       }}

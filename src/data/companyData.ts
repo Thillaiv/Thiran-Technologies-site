@@ -43,8 +43,8 @@ export const COMPANY_INFO = {
   subTagline: "Firmware, edge AI, robotics and safety-critical systems — built by senior engineers, without big-consultancy overhead or freelancer risk.",
   heroHeading: "Senior Embedded & Robotics Engineering, On Demand.",
   heroSubheading: "Intelligence for a brighter, more capable world. We build production firmware, autonomous robotics, PCB hardware, and safety-critical embedded software with compliance-grade rigor.",
-  contactEmail: "hello@thirantechnologies.io",
-  website: "thillaiv.github.io/Thiran-Technologies-site",
+  contactEmail: "hello@thiran-ai-systems.com",
+  website: "www.thiran-ai-systems.com",
   phone: "+91 80 5550 0100",
   address: "Bangalore, India"
 };

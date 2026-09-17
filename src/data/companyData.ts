@@ -44,7 +44,7 @@ export const COMPANY_INFO = {
   heroHeading: "Senior Embedded & Robotics Engineering, On Demand.",
   heroSubheading: "Intelligence for a brighter, more capable world. We build production firmware, autonomous robotics, PCB hardware, and safety-critical embedded software with compliance-grade rigor.",
   contactEmail: "hello@thirantechnologies.io",
-  website: "www.thirantechnologies.io",
+  website: "thillaiv.github.io/Thiran-Technologies-site",
   phone: "+91 80 5550 0100",
   address: "Bangalore, India"
 };

@@ -48,13 +48,23 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking, theme, toggleThem
         {/* Official Brand Logo */}
         <a href="#" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', textDecoration: 'none' }}>
           <img
-            src="./thiran_logo.png"
+            src="./thiran_logo_horizontal_light.png"
             alt="THIRAN Technologies Logo"
+            className="logo-img-light"
             style={{
-              height: '65px',
+              height: '46px',
               width: 'auto',
               objectFit: 'contain',
-              borderRadius: '4px'
+            }}
+          />
+          <img
+            src="./thiran_logo_horizontal_dark.png"
+            alt="THIRAN Technologies Logo"
+            className="logo-img-dark"
+            style={{
+              height: '46px',
+              width: 'auto',
+              objectFit: 'contain',
             }}
           />
         </a>

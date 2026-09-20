@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Navbar } from './components/Navbar';
-import { Hero } from './components/Hero';
+import { OnePagerLanding } from './components/OnePagerLanding';
 import { WhyThiran } from './components/WhyThiran';
 import { Capabilities } from './components/Capabilities';
 import { IndustriesServed } from './components/IndustriesServed';
@@ -42,7 +42,7 @@ export const App: React.FC = () => {
       <Navbar onOpenBooking={handleOpenBooking} theme={theme} toggleTheme={toggleTheme} />
       
       <main style={{ flex: 1 }}>
-        <Hero onOpenBooking={handleOpenBooking} />
+        <OnePagerLanding onOpenBooking={handleOpenBooking} />
         <WhyThiran />
         <Capabilities />
         <IndustriesServed />

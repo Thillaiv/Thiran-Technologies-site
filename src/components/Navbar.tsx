@@ -21,7 +21,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking, theme, toggleThem
   }, []);
 
   const navLinks = [
-    { name: 'Why Thiran', href: '#why-thiran' },
+    { name: 'Why Exlentia', href: '#why-exlentia' },
     { name: 'Capabilities', href: '#capabilities' },
     { name: 'Industries', href: '#industries' },
     { name: 'Tech Stack', href: '#tech-stack' },
@@ -48,8 +48,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking, theme, toggleThem
         {/* Official Brand Logo */}
         <a href="#" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', textDecoration: 'none' }}>
           <img
-            src="./thiran_logo_horizontal_light.png"
-            alt="THIRAN Technologies Logo"
+            src="./exlentia_logo_horizontal_light.svg"
+            alt="EXLENTIA Logo"
             className="logo-img-light"
             style={{
               height: '46px',
@@ -58,8 +58,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking, theme, toggleThem
             }}
           />
           <img
-            src="./thiran_logo_horizontal_dark.png"
-            alt="THIRAN Technologies Logo"
+            src="./exlentia_logo_horizontal_dark.svg"
+            alt="EXLENTIA Logo"
             className="logo-img-dark"
             style={{
               height: '46px',

@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="gearGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#94A3B8" />
+      <stop offset="100%" stop-color="#64748B" />
+    </linearGradient>
+    <linearGradient id="spineGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0052CC" />
+      <stop offset="60%" stop-color="#0A58CA" />
+      <stop offset="100%" stop-color="#0070F3" />
+    </linearGradient>
+    <linearGradient id="topArmGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0052CC" />
+      <stop offset="40%" stop-color="#0070F3" />
+      <stop offset="80%" stop-color="#00D4FF" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <linearGradient id="midArmGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0A58CA" />
+      <stop offset="60%" stop-color="#00A3FF" />
+      <stop offset="100%" stop-color="#00E5FF" />
+    </linearGradient>
+    <linearGradient id="botArmGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0070F3" />
+      <stop offset="70%" stop-color="#00B4D8" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="brainGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0070F3" />
+      <stop offset="50%" stop-color="#00D4FF" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Left: Mechanical Gear Teeth (Precision Hardware Engineering) -->
+  <g id="gear-group">
+    <!-- Gear hub arc -->
+    <path d="M 130 145 C 90 180, 90 320, 130 355 L 130 325 C 105 295, 105 205, 130 175 Z" fill="url(#gearGrad)" />
+    <!-- Gear Tooth 1 (Top Left) -->
+    <polygon points="120,150 78,135 62,170 102,185" fill="url(#gearGrad)" />
+    <!-- Gear Tooth 2 (Middle Left Top) -->
+    <polygon points="105,205 50,210 48,250 105,250" fill="url(#gearGrad)" />
+    <!-- Gear Tooth 3 (Middle Left Bottom) -->
+    <polygon points="105,250 48,250 50,290 105,295" fill="url(#gearGrad)" />
+    <!-- Gear Tooth 4 (Bottom Left) -->
+    <polygon points="102,315 62,330 78,365 120,350" fill="url(#gearGrad)" />
+    <!-- Inner bolt / axle ring -->
+    <path d="M 130 220 A 30 30 0 0 0 130 280 Z" fill="none" stroke="url(#gearGrad)" stroke-width="8" stroke-linecap="round" />
+  </g>
+
+  <!-- Right: Digital Brain & Neural Circuitry (Firmware & Edge AI) -->
+  <g id="brain-circuit" stroke="url(#brainGrad)" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Outer brain silhouette lobes (Circuit style) -->
+    <path d="M 330 110 C 375 110, 420 130, 435 170 C 445 195, 442 225, 428 248 C 448 275, 445 315, 425 345 C 395 385, 345 395, 310 390" 
+          stroke-width="5" stroke-dasharray="14 7" opacity="0.45" />
+
+    <!-- Circuit Trace 1: Top Lobe to Node -->
+    <path d="M 280 130 L 350 130 L 385 165 L 415 165" stroke-width="6" />
+    <circle cx="418" cy="165" r="7" fill="#10B981" stroke="none" />
+
+    <!-- Circuit Trace 2: Upper Mid -->
+    <path d="M 270 170 L 330 170 L 365 205 L 410 205" stroke-width="6" />
+    <circle cx="413" cy="205" r="7" fill="#00D4FF" stroke="none" />
+
+    <!-- Circuit Trace 3: Mid Branch -->
+    <path d="M 260 250 L 320 250 L 350 280 L 400 280" stroke-width="6" />
+    <circle cx="403" cy="280" r="7" fill="#00D4FF" stroke="none" />
+
+    <!-- Circuit Trace 4: Lower Mid -->
+    <path d="M 260 270 L 305 270 L 340 305 L 390 305" stroke-width="6" />
+    <circle cx="393" cy="305" r="7" fill="#10B981" stroke="none" />
+
+    <!-- Circuit Trace 5: Bottom Lobe -->
+    <path d="M 270 330 L 330 330 L 360 360 L 375 360" stroke-width="6" />
+    <circle cx="378" cy="360" r="7" fill="#10B981" stroke="none" />
+
+    <!-- Vertical Bus Interconnects -->
+    <path d="M 330 170 L 330 220 L 350 240" stroke-width="4" opacity="0.8" />
+    <circle cx="350" cy="240" r="5" fill="#0070F3" stroke="none" />
+
+    <path d="M 320 250 L 320 295" stroke-width="4" opacity="0.8" />
+    <circle cx="320" cy="295" r="5" fill="#00A3FF" stroke="none" />
+  </g>
+
+  <!-- The Bold, Iconic Architectural "E" -->
+  <g id="letter-E">
+    <!-- Top Arm with aerodynamic chamfer -->
+    <path d="M 125 60 L 360 60 L 410 115 L 295 115 L 210 115 L 210 60 Z" fill="url(#topArmGrad)" />
+    
+    <!-- Vertical Main Spine -->
+    <!-- Starts sleek with chamfered top left, solid vertical drop, bottom bevel -->
+    <path d="M 25 60 L 140 60 L 210 60 L 210 440 L 125 440 L 125 115 L 60 115 Z" fill="url(#spineGrad)" />
+    
+    <!-- Middle Arm with tech notch -->
+    <path d="M 210 220 L 325 220 L 345 250 L 325 280 L 210 280 Z" fill="url(#midArmGrad)" />
+    
+    <!-- Bottom Arm -->
+    <path d="M 125 385 L 210 385 L 350 385 L 385 440 L 125 440 Z" fill="url(#botArmGrad)" />
+
+    <!-- Sleek Diagonal Dynamic Cut / Light Reflection on the Spine -->
+    <polygon points="125,60 190,60 125,180" fill="#FFFFFF" opacity="0.22" />
+    <polygon points="210,60 270,60 210,115" fill="#FFFFFF" opacity="0.25" />
+  </g>
+</svg>

@@ -228,7 +228,7 @@ export const PilotCalculator: React.FC<PilotCalculatorProps> = ({ onOpenBookingW
 
                 <div style={{ background: 'rgba(0, 242, 254, 0.05)', padding: '1rem', borderRadius: 'var(--radius-sm)', border: '1px solid rgba(0, 242, 254, 0.2)', marginBottom: '2rem' }}>
                   <p style={{ fontSize: '0.82rem', color: 'var(--text-muted)', lineHeight: '1.4' }}>
-                    💡 <strong>Thiran Guarantee:</strong> All deliverables include full source code ownership, static analysis clean compliance, and architectural documentation.
+                    💡 <strong>Exlentia Guarantee:</strong> All deliverables include full source code ownership, static analysis clean compliance, and architectural documentation.
                   </p>
                 </div>
               </div>

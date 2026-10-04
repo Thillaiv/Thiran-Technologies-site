@@ -37,14 +37,14 @@ export interface ComplianceStandard {
 }
 
 export const COMPANY_INFO = {
-  name: "THIRAN TECHNOLOGIES",
-  shortName: "THIRAN",
+  name: "EXLENTIA",
+  shortName: "EXLENTIA",
   tagline: "INTELLIGENCE FOR A BRIGHTER, MORE CAPABLE WORLD",
   subTagline: "Firmware, edge AI, robotics and safety-critical systems — built by senior engineers, without big-consultancy overhead or freelancer risk.",
   heroHeading: "Senior Embedded & Robotics Engineering, On Demand.",
   heroSubheading: "Intelligence for a brighter, more capable world. We build production firmware, autonomous robotics, PCB hardware, and safety-critical embedded software with compliance-grade rigor.",
-  contactEmail: "admin@thiran-ai-systems.com",
-  website: "www.thiran-ai-systems.com",
+  contactEmail: "admin@exlentia.com",
+  website: "www.exlentia.com",
   phone: "+91 6380141284",
   address: "Chennai - 600119, India"
 };
@@ -280,36 +280,36 @@ export const COMPARISON_TABLE = [
     feature: "Delivery Team",
     largeConsultancy: "Junior-heavy bench after pitch",
     freelancer: "Single person (single point of failure)",
-    thiranModel: "Senior-only engineers, every engagement",
-    thiranAdvantage: true
+    exlentiaModel: "Senior-only engineers, every engagement",
+    exlentiaAdvantage: true
   },
   {
     feature: "Procurement & Onboarding",
     largeConsultancy: "Multi-week / multi-quarter cycles",
     freelancer: "Fast, but variable contracts",
-    thiranModel: "2–4 Week Scoped Pilot option",
-    thiranAdvantage: true
+    exlentiaModel: "2–4 Week Scoped Pilot option",
+    exlentiaAdvantage: true
   },
   {
     feature: "Cost & Overhead",
     largeConsultancy: "High partner overhead & billable margin",
     freelancer: "Low upfront cost, hidden rework risk",
-    thiranModel: "Transparent fixed-scope pricing",
-    thiranAdvantage: true
+    exlentiaModel: "Transparent fixed-scope pricing",
+    exlentiaAdvantage: true
   },
   {
     feature: "Regulatory & Safety Rigor",
     largeConsultancy: "Referenced in documentation",
     freelancer: "Rarely has ISO/IEC compliance discipline",
-    thiranModel: "Compliance-grade deliverables from day 1",
-    thiranAdvantage: true
+    exlentiaModel: "Compliance-grade deliverables from day 1",
+    exlentiaAdvantage: true
   },
   {
     feature: "Direct Accountability",
     largeConsultancy: "Layered account managers",
     freelancer: "Unpredictable availability",
-    thiranModel: "Direct founder & senior architect access",
-    thiranAdvantage: true
+    exlentiaModel: "Direct founder & senior architect access",
+    exlentiaAdvantage: true
   }
 ];
 

@@ -15,14 +15,14 @@ export const Footer: React.FC<FooterProps> = ({ onOpenBooking }) => {
           <div>
             <div style={{ marginBottom: '1rem' }}>
               <img
-                src="./thiran_logo_horizontal_light.png"
-                alt="THIRAN Technologies Logo"
+                src="./exlentia_logo_horizontal_light.svg"
+                alt="EXLENTIA Logo"
                 className="logo-img-light"
                 style={{ height: '52px', width: 'auto', objectFit: 'contain' }}
               />
               <img
-                src="./thiran_logo_horizontal_dark.png"
-                alt="THIRAN Technologies Logo"
+                src="./exlentia_logo_horizontal_dark.svg"
+                alt="EXLENTIA Logo"
                 className="logo-img-dark"
                 style={{ height: '52px', width: 'auto', objectFit: 'contain' }}
               />
@@ -41,7 +41,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenBooking }) => {
               NAVIGATION
             </h4>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-              {['Why Thiran', 'Capabilities', 'Industries', 'Tech Stack', 'Compliance', 'Applications', 'Pilot Scoper'].map((item) => {
+              {['Why Exlentia', 'Capabilities', 'Industries', 'Tech Stack', 'Compliance', 'Applications', 'Pilot Scoper'].map((item) => {
                 const slug = item.toLowerCase().replace(/ /g, '-');
                 return (
                   <li key={item}>

@@ -161,8 +161,8 @@ export const OnePagerLanding: React.FC<OnePagerLandingProps> = ({
               }}
             >
               <img 
-                src="/thiran_logo.png" 
-                alt="THIRAN Technologies Logo" 
+                src="./exlentia_emblem_light.svg" 
+                alt="EXLENTIA Logo" 
                 style={{ height: '42px', width: 'auto', objectFit: 'contain' }}
                 onError={(e) => {
                   // Fallback text if image missing
@@ -170,13 +170,10 @@ export const OnePagerLanding: React.FC<OnePagerLandingProps> = ({
                 }}
               />
               <div style={{ borderLeft: '1px solid #CBD5E1', paddingLeft: '0.8rem' }}>
-                <span style={{ color: '#0B1934', fontWeight: 800, fontSize: '1.1rem', letterSpacing: '0.05em', display: 'block', lineHeight: 1.1 }}>
-                  THIRAN
+                <span style={{ color: '#0B1934', fontWeight: 800, fontSize: '1.2rem', letterSpacing: '0.08em', display: 'block', lineHeight: 1.1 }}>
+                  EXLENTIA
                 </span>
-                <span style={{ color: '#FF6B00', fontWeight: 700, fontSize: '0.65rem', letterSpacing: '0.12em', display: 'block' }}>
-                  TECHNOLOGIES
-                </span>
-                <span style={{ color: '#64748B', fontSize: '0.6rem', display: 'block', fontStyle: 'italic', marginTop: '2px' }}>
+                <span style={{ color: '#64748B', fontSize: '0.62rem', display: 'block', fontStyle: 'italic', marginTop: '2px' }}>
                   INTELLIGENCE FOR A BRIGHTER, MORE CAPABLE WORLD
                 </span>
               </div>
@@ -542,18 +539,18 @@ export const OnePagerLanding: React.FC<OnePagerLandingProps> = ({
               </h2>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1.5rem', fontSize: '0.85rem', color: '#94A3B8' }}>
                 <a 
-                  href="https://thiran-ai-systems.com/" 
+                  href="https://exlentia.com/" 
                   target="_blank" 
                   rel="noreferrer"
                   style={{ color: '#94A3B8', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '0.35rem' }}
                 >
-                  <Globe size={15} color="#FF6B00" /> https://thiran-ai-systems.com/
+                  <Globe size={15} color="#FF6B00" /> https://exlentia.com/
                 </a>
                 <a 
-                  href="mailto:admin@thiran-ai-systems.com"
+                  href="mailto:admin@exlentia.com"
                   style={{ color: '#94A3B8', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '0.35rem' }}
                 >
-                  <Mail size={15} color="#FF6B00" /> admin@thiran-ai-systems.com
+                  <Mail size={15} color="#FF6B00" /> admin@exlentia.com
                 </a>
               </div>
             </div>

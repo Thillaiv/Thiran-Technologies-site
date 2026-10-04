@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Navbar } from './components/Navbar';
 import { OnePagerLanding } from './components/OnePagerLanding';
-import { WhyThiran } from './components/WhyThiran';
+import { WhyExlentia } from './components/WhyExlentia';
 import { Capabilities } from './components/Capabilities';
 import { IndustriesServed } from './components/IndustriesServed';
 import { TechStackMatrix } from './components/TechStackMatrix';
@@ -43,7 +43,7 @@ export const App: React.FC = () => {
       
       <main style={{ flex: 1 }}>
         <OnePagerLanding onOpenBooking={handleOpenBooking} />
-        <WhyThiran />
+        <WhyExlentia />
         <Capabilities />
         <IndustriesServed />
         <TechStackMatrix />
